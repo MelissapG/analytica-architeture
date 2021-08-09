@@ -5,10 +5,12 @@ name: Python application
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches:
+      -main
   pull_request:
-    branches: [ $default-branch ]
-
+    branches:
+      -main
+    workflow dispacthes
 jobs:
   build:
 
