@@ -6,11 +6,12 @@ name: Python application
 on:
   push:
     branches:
-      -main
+      - main
   pull_request:
     branches:
-      -main
-    workflow dispacthes
+      - main
+    workflow_dispacth:
+    
 jobs:
   build:
 
